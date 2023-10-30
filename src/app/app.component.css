@@ -1,0 +1,43 @@
+*{margin: 0;
+padding: 0;}
+
+
+
+.image{
+display: flex;
+justify-content: center;
+    height: 750px;
+    background-image: url(src/assets/fund.webp);
+    background-size: cover;
+    align-items: center;
+    flex-direction: column ;
+
+}
+h1,p{
+color:rgb(174, 222, 235);
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1:hover,p:hover{
+   
+    color: rgb(21, 255, 0);
+}
+
+
+a{
+    padding: 10px 15px 10px 15px;
+    font-size: larger;
+    border: 2px solid aqua ;
+    background-color: black;
+    color: aqua;
+    text-decoration: none;
+     margin-top: 10px;
+}
+
+a:hover{
+    border: 2px solid white ;
+    background-color:aqua;
+    color: black;
+}
